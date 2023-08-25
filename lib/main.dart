@@ -46,13 +46,17 @@ class _LoginPageState extends State<LoginPage> {
           children: [
             TextField(
               controller: _emailController,
+              style: const TextStyle(color: Colors.white, fontSize: 18),
               decoration: const InputDecoration(
                   labelText: 'Correo Electrónico',
                   labelStyle: TextStyle(color: Colors.white, fontSize: 18)),
             ),
-            const SizedBox(height: 20.0),
+            const SizedBox(
+              height: 20.0,
+            ),
             TextField(
               controller: _passwordController,
+              style: const TextStyle(color: Colors.white, fontSize: 18),
               decoration: const InputDecoration(
                 labelText: 'Contraseña',
                 labelStyle: TextStyle(color: Colors.white, fontSize: 18),
